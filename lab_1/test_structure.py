@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from v2 import get_html_page, find_articles, generate_json, BeautifulSoup, requests
+from lab_1 import get_html_page, find_articles, generate_json, BeautifulSoup, requests
 
 
 class CrawlerTests(unittest.TestCase):
