@@ -47,7 +47,7 @@ def get_html_page(url):
     if not url_req.status_code == 200:
         raise Exception(f"[!] status_code is not OK of incoming url: {url}\n*[TIP]: Perhaps you stumbled upon page 404...")
 
-    return BeautifulSoup(url_req.text, "lxml") # вернем результат
+    return BeautifulSoup(url_req.text, "html.parser") # вернем результат
 
 # ===== [ФУНКЦИЯ: Получить все статьи и их представленные данные] =====
 def find_articles(page):

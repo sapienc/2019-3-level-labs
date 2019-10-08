@@ -61,7 +61,7 @@ class CrawlerTests(unittest.TestCase):
         self.assertRaises(ValueError, get_html_page, "Just a string | Not the URL") # not the URL
         self.assertRaises(Exception, get_html_page, "https://lifehacker.ru/qdwqwdq") # 
 
-        self.assertIs(type( get_html_page("https://lifehacker.ru/topics/news") ), type(BeautifulSoup("",  "lxml")) )
+        self.assertIs(type( get_html_page("https://lifehacker.ru/topics/news") ), type(BeautifulSoup("",  "html.parser")) )
         
 # --------------- [ENTRY POINT] ---------------
 if __name__ == '__main__':
