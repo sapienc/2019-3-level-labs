@@ -1,41 +1,45 @@
 import requests
+import requests.exceptions
+from requests.models import PreparedRequest
+
 from bs4 import BeautifulSoup
 
-from requests.models import PreparedRequest
-import requests.exceptions
+from flask import Flask, render_template
 
+# Standard libraries
 import json
 from datetime import datetime, date
 
 
-# ===== [ФУНКЦИЯ: Проверить URL на валидность] =====
+app = Flask(__name__)
+
+# ===== [FUNCTION: Check URL for validity] =====
 def check_url(url):
-    prepared_request = PreparedRequest() # создадим экземпляр класса PreparedRequest библиотеки requests
+    prepared_request = PreparedRequest() # create an instance of the PreparedRequest class of the requests library
     try:
-        prepared_request.prepare_url(url, None)
+        prepared_request.prepare_url(url, None) # checking for the correct of url
         return True
     except:
         return False
 
-
-# ===== [ФУНКЦИЯ: Получить HTML контент] =====
+# ===== [FUNCTION: Get HTML content] =====
 def get_html_page(url):
 
     print("Incoming URL is:", url, "\n")
 
-    # Проверим на тип входящего аргумента
+    # Check for the type of input argument
     if type(url) is not str:
         raise TypeError(f"[!] Incorrect type of argument `url`! Should be a 'string', but came: {type(url)}")
 
-    # Проверим на заполненность аргумента url
+    # Check if the url argument is empty
     if len(url) <= 0:
         raise ValueError(f"[!] Your URL is empty!")
 
-    # Проверим на корректность пришедшего URL
+    # Check for the correct of the received URL
     if not check_url(url):
         raise ValueError(f"[!] Invalid URL!\n*[TIP]: Correct URL consists of: http(s)://domain.name/[path/]")
 
-    # Произведем попытку подключения и получения контента
+    # Try to connect and receive content
     try:
         url_req = requests.get(url)
     except requests.exceptions.ConnectionError:
@@ -43,19 +47,19 @@ def get_html_page(url):
     except:
         raise ValueError(f"[!] Can't get HTML content by this URL: {url}\n*[TIP]: Try to check your URL for validity!")
 
-    # Проверим что со status_code'ом
+    # Checking status_code
     if not url_req.status_code == 200:
         raise Exception(f"[!] status_code is not OK of incoming url: {url}\n*[TIP]: Perhaps you stumbled upon page 404...")
 
-    return BeautifulSoup(url_req.text, "html.parser") # вернем результат
+    return BeautifulSoup(url_req.text, "html.parser") # return for future handling
 
-# ===== [ФУНКЦИЯ: Получить все статьи и их представленные данные] =====
+# ===== [FUNCTION: Get all articles and their submitted data] =====
 def find_articles(page):
     if type(page) is not BeautifulSoup:
         raise TypeError(f"[!] Something went wrong! Incoming argument `page` is not what we are expected for.\n*[INPUT]: Incoming argument is not a BS4 type | `page` = {page}")
 
     try:
-        # получим конкретный контейнер, у которого будем искать содержимое
+        # get a specific container from which we will search for the contents
         news_container = page.select_one('.flow .flow__posts')
         posts = news_container.find_all('div', {'class': 'flow-post'})
     except:
@@ -65,6 +69,7 @@ def find_articles(page):
 
     try:
         for post in posts:
+            # getting the DOM elements to grab info from them
             post_heading = post.select_one('.flow-post__title')
             post_description = post.select_one('.flow-post__excerpt')
             post_link = post_heading.parent.get('href')
@@ -74,6 +79,7 @@ def find_articles(page):
             for tag in post.select('.meta-mark span[class^="meta-info"]'):
                 post_tags.append( (tag.text).strip() )
 
+            # forming an array with objects of each post
             articles += [{
                 'title': post_heading.text,
                 'descr': post_description.text,
@@ -83,32 +89,45 @@ def find_articles(page):
     except:
         raise Exception("[!] Can't parse content!\n*[TIP]: Perhaps DOM structure was changed...")
 
-    return articles
+    return articles # return for future handling
 
-# ===== [ФУНКЦИЯ: Сформировать JSON документ о полученных данных] =====
+# ===== [FUNCTION: Generate a JSON document about the received data] =====
 def generate_json(path, url = "", articles = []):
 
+    # Forming a json object
     json_obj = {
         'url': url,
         'creationDate': datetime.now().strftime("%d-%m-%Y [%H:%M:%S]"),
         'articles': articles
     }
 
-    # Сохранием объект в файл
+    # Saving data to a json file
     with open(path, "w", encoding="utf-8") as file:
         json.dump(json_obj, file, indent = 4, ensure_ascii = False)
 
-    return json_obj
-# --------------- [ТОЧКА ВХОДА] ---------------
-if __name__ == '__main__': # если программа запущена напрямую
+    return json_obj # return for future handling
+
+# ===== [ROUTE: Root page] =====
+@app.route('/')
+def main():
+    with open("articles.json", "r", encoding="utf-8") as file:
+        articles_info = json.load(file) # loading articles from json file
+
+    return render_template('main.html', articles = articles_info) # render our html page with articles data
+
+# --------------- [ENTRY POINT] ---------------
+if __name__ == '__main__': # if the program is launched directly from console
     print("===== [PROGRAM STARTED] =====\n")
 
     URL = "https://lifehacker.ru/topics/news"
 
-    page = get_html_page(URL)
-    articles = find_articles(page)
-    generate_json("articles.json")
+    page = get_html_page(URL) # getting HTML content of the page
+    articles = find_articles(page) # grabbing articles from the pages
+    generate_json("articles.json", URL, articles) # generating json with grabbed data
     
-    print("Done!")
+    print("Parse done!")
+    print("Running server...")
+    
+    app.run(port=8000, debug=True) # running a server on port 8000 with debug mode
     
     print("\n===== [PROGRAM FINISHED] =====")

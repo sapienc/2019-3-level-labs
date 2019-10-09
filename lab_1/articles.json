@@ -1,0 +1,140 @@
+{
+    "url": "https://lifehacker.ru/topics/news",
+    "creationDate": "09-10-2019 [04:53:25]",
+    "articles": [
+        {
+            "title": "Google требует, чтобы с января все новые смартфоны выходили с Android 10",
+            "descr": "Да, бюджетных моделей это тоже касается.",
+            "link": "https://lifehacker.ru/google-android-10-january/",
+            "tags": [
+                "ANDROID",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Цена дня: самый мощный пауэрбанк Xiaomi на 20 000 мА·ч за 3 734 рубля",
+            "descr": "Он может заряжать три смартфона одновременно или один MacBook Pro. ",
+            "link": "https://lifehacker.ru/xiaomi-mi-power-bank-3-ali/",
+            "tags": [
+                "НОВОСТИ",
+                "УСТРОЙСТВА"
+            ]
+        },
+        {
+            "title": "Видео дня: рождение двойной звезды на расстоянии 600 световых лет от Земли",
+            "descr": "Как два танцующих Солнца.",
+            "link": "https://lifehacker.ru/rozhdenie-dvojnoj-zvezdy/",
+            "tags": [
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Опрос: каким планшетом вы пользуетесь?",
+            "descr": "iPad, Samsung Galaxy Tab или, может, Xiaomi Mi Pad?",
+            "link": "https://lifehacker.ru/opros-kakim-planshetom/",
+            "tags": [
+                "НОВОСТИ",
+                "УСТРОЙСТВА"
+            ]
+        },
+        {
+            "title": "В Великобритании открыли первую клинику по борьбе с зависимостью от видеоигр",
+            "descr": "Консультацию можно будет получить при личной встрече или по Skype.",
+            "link": "https://lifehacker.ru/zavisimost-ot-videoigr/",
+            "tags": [
+                "ИГРЫ",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Sony подтвердила название PlayStation 5 и назвала сроки выхода консоли",
+            "descr": "Также появилась информация о новом геймпаде, интерфейсе и другие подробности.",
+            "link": "https://lifehacker.ru/playstation-5-data-vyxoda/",
+            "tags": [
+                "ИГРЫ",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Как легко обходить два раздражающих недостатка iOS 13",
+            "descr": "Добавляем виртуальный трекпад для редактирования текста и быстро удаляем ненужные приложения.",
+            "link": "https://lifehacker.ru/two-ios-flaws/",
+            "tags": [
+                "IOS",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Штука дня: умная беспроводная камера от Xiaomi с автономностью до 100 дней",
+            "descr": "Её уже можно купить на AliExpress.",
+            "link": "https://lifehacker.ru/xiaomi-xiaobai-camera-battery/",
+            "tags": [
+                "НОВОСТИ",
+                "УСТРОЙСТВА"
+            ]
+        },
+        {
+            "title": "10 новых игр для Android и iOS, которые не стоит пропускать",
+            "descr": "В свежей подборке мобильных игр вас ждёт новый симулятор выживания, ретро-платформер, королевская битва в зоопарке и не только. ",
+            "link": "https://lifehacker.ru/10-novyx-mobilnyx-igr-okt/",
+            "tags": [
+                "ANDROID",
+                "IOS"
+            ]
+        },
+        {
+            "title": "Google теперь будет решать, какие смартфоны игровые, а какие — нет",
+            "descr": "Новая сертификация расставит всё по местам.",
+            "link": "https://lifehacker.ru/google-gaming-phone/",
+            "tags": [
+                "НОВОСТИ",
+                "УСТРОЙСТВА"
+            ]
+        },
+        {
+            "title": "6 рекордов, которые уже побил новый «Джокер»",
+            "descr": "История про клоуна дважды превзошла «Венома».",
+            "link": "https://lifehacker.ru/joker-6-records/",
+            "tags": [
+                "КИНО",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "В Instagram на iOS появилась тёмная тема",
+            "descr": "Но только у пользователей iOS 13.",
+            "link": "https://lifehacker.ru/instagram-dark-mode/",
+            "tags": [
+                "IOS",
+                "ВЕБ-СЕРВИСЫ"
+            ]
+        },
+        {
+            "title": "Из Instagram исчезнет вкладка «Подписки». Больше никто не узнает, что вы лайкаете бывших",
+            "descr": "У некоторых она пропала ещё в августе, но теперь исчезнет у всех.",
+            "link": "https://lifehacker.ru/instagram-podpiski/",
+            "tags": [
+                "НОВОСТИ",
+                "ТЕХНОЛОГИИ"
+            ]
+        },
+        {
+            "title": "Подборка тёмных обоев по мотивам старых версий iOS",
+            "descr": "Потрясающе смотрятся на смартфонах с тёмной темой.",
+            "link": "https://lifehacker.ru/oled-wallpaper-2/",
+            "tags": [
+                "IOS",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Вышел первый трейлер финального сезона «Викингов» с Данилой Козловским",
+            "descr": "Премьера уже в декабре.",
+            "link": "https://lifehacker.ru/vikings-6-trailer/",
+            "tags": [
+                "КИНО",
+                "НОВОСТИ"
+            ]
+        }
+    ]
+}
