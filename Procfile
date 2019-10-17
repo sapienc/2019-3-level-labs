@@ -1,1 +1,1 @@
-web: gunicorn --chdir lab_2 lab_2.py:app
+web: gunicorn --chdir lab_2 lab_2:app
