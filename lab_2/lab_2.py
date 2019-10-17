@@ -114,14 +114,14 @@ def parse(url="https://lifehacker.ru/topics/news"):
     generate_json("articles.json", url, articles) # generating json with grabbed data
 
 # ===== [ROUTE: Root page] =====
-@app.route('/')
+@app.route('/', methods=["GET"])
 def main():
     with open("articles.json", "r", encoding="utf-8") as file:
         articles_info = json.load(file) # loading articles from json file
 
     return render_template('main.html', articles = articles_info) # render our html page with articles data
 
-@app.route('/update')
+@app.route('/update', methods=["POST"])
 def refresh():
     parse()
     return redirect(url_for('main'))
