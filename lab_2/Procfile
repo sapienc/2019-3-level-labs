@@ -1,0 +1,1 @@
+web: gunicorn lab_2:app
