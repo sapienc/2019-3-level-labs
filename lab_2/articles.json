@@ -1,7 +1,61 @@
 {
     "url": "https://lifehacker.ru/topics/news",
-    "creationDate": "17-10-2019 [06:26:54]",
+    "creationDate": "17-10-2019 [15:42:04]",
     "articles": [
+        {
+            "title": "Цена дня: Xiaomi Redmi Note 8 с глобальной прошивкой за 10 990 рублей",
+            "descr": "Комплект можно дополнить браслетом Mi Band 4 или наушниками Redmi AirDots.",
+            "link": "https://lifehacker.ru/xiaomi-redmi-note-8-10990/",
+            "tags": [
+                "НОВОСТИ",
+                "УСТРОЙСТВА"
+            ]
+        },
+        {
+            "title": "Xiaomi выпустила беспроводную мышь Mijia Air Mouse. Её можно подключать к двум устройствам сразу",
+            "descr": "Она стоит около 800 рублей. ",
+            "link": "https://lifehacker.ru/xiaomi-predstavila-mijia-air/",
+            "tags": [
+                "НОВОСТИ",
+                "УСТРОЙСТВА"
+            ]
+        },
+        {
+            "title": "Как блокировать телефонный спам на iPhone с iOS 13",
+            "descr": "Больше не нужно платить за эту услугу оператору: достаточно обновить систему.",
+            "link": "https://lifehacker.ru/block-spam-calls-iphone/",
+            "tags": [
+                "IOS",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "В «Матрице-4» появятся женская версия Нео, молодой Морфеус и Ниобе",
+            "descr": "Кажется, главная роль будет не у Киану Ривза. ",
+            "link": "https://lifehacker.ru/v-matrice-4-neo/",
+            "tags": [
+                "КИНО",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "«Это стоило 10 лет ожидания»: первые отзывы на сиквел «Zомбилэнда»",
+            "descr": "«Зомби эволюционировали, а юмор не очень. Но это и не плохо».",
+            "link": "https://lifehacker.ru/zombieland-double-tap-reviews/",
+            "tags": [
+                "КИНО",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Mail.ru Group запустила подписку Combo со скидками на Delivery Club, «Ситимобил» и другие сервисы",
+            "descr": "7 спецпредложений, в том числе доступ к «МегаФон ТВ» с «Амедиатекой» в комплекте.",
+            "link": "https://lifehacker.ru/mail-ru-group-zapustila-combo/",
+            "tags": [
+                "ВЕБ-СЕРВИСЫ",
+                "НОВОСТИ"
+            ]
+        },
         {
             "title": "Юбилейный набор Battlefield для PS4 распродают за 899 рублей вместо 5 799",
             "descr": "Получить полный комплект из трёх игр можно со скидкой 84%.",
@@ -80,58 +134,6 @@
             "tags": [
                 "НОВОСТИ",
                 "УСТРОЙСТВА"
-            ]
-        },
-        {
-            "title": "Недоступная среда: 20 примеров ужасных пандусов для людей с колясками",
-            "descr": "Когда делают не для людей, а для галочки.",
-            "link": "https://lifehacker.ru/20-primerov-uzhasnyx-pandusov/",
-            "tags": [
-                "ЖИЗНЬ",
-                "НОВОСТИ"
-            ]
-        },
-        {
-            "title": "12 самых красивых фото природы по версии Earth Science Week 2019",
-            "descr": "Красота без людей в кадре.",
-            "link": "https://lifehacker.ru/earth-science-week-2019/",
-            "tags": [
-                "НОВОСТИ"
-            ]
-        },
-        {
-            "title": "Google представила Pixelbook Go: бюджетный хромбук, которого хватит на 12 часов работы",
-            "descr": "Наконец-то у MacBook Air появился достойный конкурент.",
-            "link": "https://lifehacker.ru/pixelbook-go/",
-            "tags": [
-                "НОВОСТИ",
-                "УСТРОЙСТВА"
-            ]
-        },
-        {
-            "title": "Google анонсировала новые TWS-наушники Pixel Buds с активным шумоподавлением",
-            "descr": "Знакомое название, полностью новый дизайн.",
-            "link": "https://lifehacker.ru/google-pixel-buds-anons/",
-            "tags": [
-                "НОВОСТИ",
-                "УСТРОЙСТВА"
-            ]
-        },
-        {
-            "title": "Google представила смартфоны Pixel 4 и Pixel 4 XL с аналогом Face ID",
-            "descr": "Дороже iPhone 11, но дешевле iPhone 11 Pro.",
-            "link": "https://lifehacker.ru/google-predstavila-pixel-4/",
-            "tags": [
-                "НОВОСТИ",
-                "УСТРОЙСТВА"
-            ]
-        },
-        {
-            "title": "Штука дня: Nanobag 3.0 — стильная авоська, которая заменит пакет с пакетами",
-            "descr": "Занимает минимум места и выдерживает до 30 кг. ",
-            "link": "https://lifehacker.ru/nanobag-3-0/",
-            "tags": [
-                "НОВОСТИ"
             ]
         }
     ]

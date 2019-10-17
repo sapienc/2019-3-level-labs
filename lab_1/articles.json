@@ -1,138 +1,138 @@
 {
     "url": "https://lifehacker.ru/topics/news",
-    "creationDate": "09-10-2019 [04:53:25]",
+    "creationDate": "17-10-2019 [14:41:23]",
     "articles": [
         {
-            "title": "Google требует, чтобы с января все новые смартфоны выходили с Android 10",
-            "descr": "Да, бюджетных моделей это тоже касается.",
-            "link": "https://lifehacker.ru/google-android-10-january/",
-            "tags": [
-                "ANDROID",
-                "НОВОСТИ"
-            ]
-        },
-        {
-            "title": "Цена дня: самый мощный пауэрбанк Xiaomi на 20 000 мА·ч за 3 734 рубля",
-            "descr": "Он может заряжать три смартфона одновременно или один MacBook Pro. ",
-            "link": "https://lifehacker.ru/xiaomi-mi-power-bank-3-ali/",
+            "title": "Xiaomi выпустила беспроводную мышь Mijia Air Mouse. Её можно подключать к двум устройствам сразу",
+            "descr": "Она стоит около 800 рублей. ",
+            "link": "https://lifehacker.ru/xiaomi-predstavila-mijia-air/",
             "tags": [
                 "НОВОСТИ",
                 "УСТРОЙСТВА"
             ]
         },
         {
-            "title": "Видео дня: рождение двойной звезды на расстоянии 600 световых лет от Земли",
-            "descr": "Как два танцующих Солнца.",
-            "link": "https://lifehacker.ru/rozhdenie-dvojnoj-zvezdy/",
-            "tags": [
-                "НОВОСТИ"
-            ]
-        },
-        {
-            "title": "Опрос: каким планшетом вы пользуетесь?",
-            "descr": "iPad, Samsung Galaxy Tab или, может, Xiaomi Mi Pad?",
-            "link": "https://lifehacker.ru/opros-kakim-planshetom/",
-            "tags": [
-                "НОВОСТИ",
-                "УСТРОЙСТВА"
-            ]
-        },
-        {
-            "title": "В Великобритании открыли первую клинику по борьбе с зависимостью от видеоигр",
-            "descr": "Консультацию можно будет получить при личной встрече или по Skype.",
-            "link": "https://lifehacker.ru/zavisimost-ot-videoigr/",
-            "tags": [
-                "ИГРЫ",
-                "НОВОСТИ"
-            ]
-        },
-        {
-            "title": "Sony подтвердила название PlayStation 5 и назвала сроки выхода консоли",
-            "descr": "Также появилась информация о новом геймпаде, интерфейсе и другие подробности.",
-            "link": "https://lifehacker.ru/playstation-5-data-vyxoda/",
-            "tags": [
-                "ИГРЫ",
-                "НОВОСТИ"
-            ]
-        },
-        {
-            "title": "Как легко обходить два раздражающих недостатка iOS 13",
-            "descr": "Добавляем виртуальный трекпад для редактирования текста и быстро удаляем ненужные приложения.",
-            "link": "https://lifehacker.ru/two-ios-flaws/",
+            "title": "Как блокировать телефонный спам на iPhone с iOS 13",
+            "descr": "Больше не нужно платить за эту услугу оператору: достаточно обновить систему.",
+            "link": "https://lifehacker.ru/block-spam-calls-iphone/",
             "tags": [
                 "IOS",
                 "НОВОСТИ"
             ]
         },
         {
-            "title": "Штука дня: умная беспроводная камера от Xiaomi с автономностью до 100 дней",
-            "descr": "Её уже можно купить на AliExpress.",
-            "link": "https://lifehacker.ru/xiaomi-xiaobai-camera-battery/",
+            "title": "В «Матрице-4» появятся женская версия Нео, молодой Морфеус и Ниобе",
+            "descr": "Кажется, главная роль будет не у Киану Ривза. ",
+            "link": "https://lifehacker.ru/v-matrice-4-neo/",
             "tags": [
-                "НОВОСТИ",
-                "УСТРОЙСТВА"
+                "КИНО",
+                "НОВОСТИ"
             ]
         },
         {
-            "title": "10 новых игр для Android и iOS, которые не стоит пропускать",
-            "descr": "В свежей подборке мобильных игр вас ждёт новый симулятор выживания, ретро-платформер, королевская битва в зоопарке и не только. ",
-            "link": "https://lifehacker.ru/10-novyx-mobilnyx-igr-okt/",
+            "title": "«Это стоило 10 лет ожидания»: первые отзывы на сиквел «Zомбилэнда»",
+            "descr": "«Зомби эволюционировали, а юмор не очень. Но это и не плохо».",
+            "link": "https://lifehacker.ru/zombieland-double-tap-reviews/",
+            "tags": [
+                "КИНО",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Mail.ru Group запустила подписку Combo со скидками на Delivery Club, «Ситимобил» и другие сервисы",
+            "descr": "7 спецпредложений, в том числе доступ к «МегаФон ТВ» с «Амедиатекой» в комплекте.",
+            "link": "https://lifehacker.ru/mail-ru-group-zapustila-combo/",
+            "tags": [
+                "ВЕБ-СЕРВИСЫ",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Юбилейный набор Battlefield для PS4 распродают за 899 рублей вместо 5 799",
+            "descr": "Получить полный комплект из трёх игр можно со скидкой 84%.",
+            "link": "https://lifehacker.ru/battlefield-ps4-sale/",
+            "tags": [
+                "ИГРЫ",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Xiaomi представила новый жилет с подогревом. Он уже есть на AliExpress",
+            "descr": "Температура нагрева может регулироваться автоматически в зависимости от погоды на улице.",
+            "link": "https://lifehacker.ru/xiaomi-zhilet-s-podogrevom/",
+            "tags": [
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Новая маска в Instagram покажет, по какой статье УК РФ вас могут посадить",
+            "descr": "Работает как через основную камеру, так и через фронтальную.",
+            "link": "https://lifehacker.ru/maska-v-instagram-uk-rf/",
             "tags": [
                 "ANDROID",
                 "IOS"
             ]
         },
         {
-            "title": "Google теперь будет решать, какие смартфоны игровые, а какие — нет",
-            "descr": "Новая сертификация расставит всё по местам.",
-            "link": "https://lifehacker.ru/google-gaming-phone/",
+            "title": "Xiaomi рассказала, какие смартфоны получат MIUI 11 до конца года",
+            "descr": "Популярный Pocophone F1 в списке тоже есть.",
+            "link": "https://lifehacker.ru/miui-11-timetable/",
+            "tags": [
+                "ANDROID",
+                "НОВОСТИ"
+            ]
+        },
+        {
+            "title": "Первое сравнение камер Pixel 4 и iPhone 11 Pro: кто снимает лучше?",
+            "descr": "Взгляните на фото и выберите победителя. ",
+            "link": "https://lifehacker.ru/sravnenie-kamer-pixel-4-iphone-11-pro/",
             "tags": [
                 "НОВОСТИ",
                 "УСТРОЙСТВА"
             ]
         },
         {
-            "title": "6 рекордов, которые уже побил новый «Джокер»",
-            "descr": "История про клоуна дважды превзошла «Венома».",
-            "link": "https://lifehacker.ru/joker-6-records/",
+            "title": "Всю серию игр Syberia распродают за 302 рубля вместо 4 046",
+            "descr": "Активировать ключ можно в Steam с ПК или Mac, выгода составила 92%.",
+            "link": "https://lifehacker.ru/syberia-sale-fanatical/",
             "tags": [
-                "КИНО",
+                "ИГРЫ",
                 "НОВОСТИ"
             ]
         },
         {
-            "title": "В Instagram на iOS появилась тёмная тема",
-            "descr": "Но только у пользователей iOS 13.",
-            "link": "https://lifehacker.ru/instagram-dark-mode/",
-            "tags": [
-                "IOS",
-                "ВЕБ-СЕРВИСЫ"
-            ]
-        },
-        {
-            "title": "Из Instagram исчезнет вкладка «Подписки». Больше никто не узнает, что вы лайкаете бывших",
-            "descr": "У некоторых она пропала ещё в августе, но теперь исчезнет у всех.",
-            "link": "https://lifehacker.ru/instagram-podpiski/",
+            "title": "Apple представила полноразмерные наушники Solo Pro с активным шумоподавлением",
+            "descr": "22 часа автономной работы и автоматическое подключение к технике Apple.",
+            "link": "https://lifehacker.ru/beats-solo-pro/",
             "tags": [
                 "НОВОСТИ",
-                "ТЕХНОЛОГИИ"
+                "УСТРОЙСТВА"
             ]
         },
         {
-            "title": "Подборка тёмных обоев по мотивам старых версий iOS",
-            "descr": "Потрясающе смотрятся на смартфонах с тёмной темой.",
-            "link": "https://lifehacker.ru/oled-wallpaper-2/",
+            "title": "Apple запатентовала умное кольцо для управления другими устройствами",
+            "descr": "Оно позволит отдавать команды по щелчку пальцев. ",
+            "link": "https://lifehacker.ru/apple-zapatentovala-umnoe-kolco/",
             "tags": [
-                "IOS",
-                "НОВОСТИ"
+                "НОВОСТИ",
+                "УСТРОЙСТВА"
             ]
         },
         {
-            "title": "Вышел первый трейлер финального сезона «Викингов» с Данилой Козловским",
-            "descr": "Премьера уже в декабре.",
-            "link": "https://lifehacker.ru/vikings-6-trailer/",
+            "title": "Разблокировка по лицу Google Pixel 4 оказалась крайне ненадёжной",
+            "descr": "Если у вас есть секреты от близких, то с таким смартфоном придётся быть предельно острожным. ",
+            "link": "https://lifehacker.ru/razblokirovka-po-licu-pixel-4/",
             "tags": [
-                "КИНО",
+                "НОВОСТИ",
+                "УСТРОЙСТВА"
+            ]
+        },
+        {
+            "title": "Недоступная среда: 20 примеров ужасных пандусов для людей с колясками",
+            "descr": "Когда делают не для людей, а для галочки.",
+            "link": "https://lifehacker.ru/20-primerov-uzhasnyx-pandusov/",
+            "tags": [
+                "ЖИЗНЬ",
                 "НОВОСТИ"
             ]
         }

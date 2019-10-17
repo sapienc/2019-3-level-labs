@@ -125,6 +125,10 @@ def main():
 def refresh():
     parse()
     return redirect(url_for('main'))
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 # --------------- [ENTRY POINT] ---------------
 if __name__ == '__main__': # if the program is launched directly from console
     print("===== [PROGRAM STARTED] =====\n")
