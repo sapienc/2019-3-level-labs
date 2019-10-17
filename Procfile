@@ -1,1 +1,1 @@
-web: gunicorn lab_2.py:app
+web: gunicorn /lab_2/lab_2.py:app
