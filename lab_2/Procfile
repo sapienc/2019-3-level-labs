@@ -1,2 +1,1 @@
-heroku ps:scale web=1
-web: gunicorn lab_2:app
+web: gunicorn lab_2.py:app 8000
