@@ -84,7 +84,8 @@ def find_articles(page):
                 'title': post_heading.text,
                 'descr': post_description.text,
                 'link': post_link,
-                'tags': post_tags
+                'tags': post_tags,
+                'time': datetime.now().strftime("%S")
             }]
     except:
         raise Exception("[!] Can't parse content!\n*[TIP]: Perhaps DOM structure was changed...")

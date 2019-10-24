@@ -12,18 +12,15 @@ a
     color: #222222;
     text-decoration: none;
 }
-a:hover
-{
-    color: #ED5E42;
-    border-bottom: 1px solid #ED5E42;
-}
 a:visited { color: #888988; }
 
 li
 {
     padding: 10px 0;
     margin: 5px 0;
-    border-bottom: 2px dashed #ED5E42;
+    border-bottom: 2px dashed #CED0CE;
+
+    /* transition: 0.2s ease-in-out; */
 }
 
 /* Classes styles */
@@ -46,6 +43,19 @@ li
     background-color: #ED5E42;
     border-radius: 6px;
 }
+    .logo a
+    {
+        color: white;
+        transition: 0.2s ease-in-out;
+        padding: 5px 15px;
+    }
+    .logo a:hover
+    {
+        color: white;
+        border-bottom: 2px solid rgba(255,255,255,0.3);
+        border-radius: 5px;
+        box-shadow: 0px -0px 50px rgba(0,0,0,0.3) inset;
+    }
 
 .info
 {

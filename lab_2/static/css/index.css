@@ -1,0 +1,128 @@
+/* Standard tags styles */
+body
+{
+    font: 16px 'Trebuchet MS', sans-serif;
+    color: #222222;
+}
+
+h1 { text-align: center; }
+a { text-decoration: none; text-transform: uppercase; }
+
+/* Classes styles */
+.content
+{
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.main_source
+{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+}
+    .main_source .link
+    {
+        display: block;
+        line-height: 250px;
+        color: black;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        transition: 0.2s ease-in-out;
+    }
+    .main_source .link:hover
+    {
+        background-color: #ED5E42;
+        color: white;
+    }
+.another_sources
+{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+    text-align: center;
+    list-style: none;
+}
+    .another_sources .source_item
+    {
+        position: relative;
+        width: 50%;
+        margin: 0;
+        box-sizing: border-box;
+        transition: 0.2s ease-in-out;
+    }
+        .another_sources .source_item .link
+        {
+            display: block;
+            color: black;
+            font-size: 32px;
+            line-height: 150px;
+            transition: 0.2s ease-in-out;
+        }
+        .another_sources .source_item .link:hover
+        {
+            color: white;
+        }
+    .another_sources .source_item:nth-last-child(2) { border-bottom-left-radius: 6px; }
+    .another_sources .source_item:nth-last-child(1) { border-bottom-right-radius: 6px; }
+
+        .source_item.mailru:hover
+        {
+            background: #005FF9;
+            /* #185DF4 */
+        }
+        .source_item.nnru:hover
+        {
+            background: #001F4B;
+            /* background: #294371; */
+            /* background: #E8E8E8; */
+            /* background: #373A3E; */
+            /* 
+                #0086E6
+                #00B9F2
+                #005FAD
+                #0086E6
+            */
+        }
+        .source_item .logo
+        {
+            position: absolute;
+            /* display: block; */
+            width: 40px;
+            height: 40px;
+            left: 22%;
+            top: 36%;
+        }
+            /* MAILRU */
+            .source_item.mailru .logo
+            {
+                font-size: 42px;
+                line-height: 38px;
+                font-weight: bold;
+                color: #FF9E00;
+            }
+            /* NNRU */
+            .source_item.nnru .logo
+            {
+                
+            }
+            .source_item.nnru .logo .block_1
+            {
+                display: block;
+                width: 100%;
+                height: 50%;
+                background: linear-gradient(to right, #0086e6 0%, #0086e6 50%, #00baf2 50%, #00baf2 100%);
+            }
+            .source_item.nnru .logo .block_2
+            {
+                display: block;
+                width: 100%;
+                height: 50%;
+                background: linear-gradient(to right, #005FAD 0%, #005FAD 50%, #0086e6 50%, #0086e6 100%);
+            }

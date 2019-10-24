@@ -1,0 +1,11 @@
+a:hover
+{
+    color: #ED5E42;
+    border-bottom: 1px solid #ED5E42;
+}
+li:hover { border-color: #ED5E42; }
+
+.logo
+{
+    background-color: #ED5E42;
+}

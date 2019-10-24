@@ -3,15 +3,17 @@
 <head>
     <meta charset="utf-8">
     <title>Статьи | Lifehacker</title>
-    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/{{style}}.css">
 </head>
 <body>
     <div class="content">
-        <p class="logo">Лайфхакер</p>
+        <p class="logo"><a href="/">На главную</a></p>
         <h2>Такой страницы нет.</h2>
-        <img src="https://lifehacker.ru/wp-content/themes/lifehacker/static/img/bear.gif">
+        <img src="../static/css/images/{{style}}.gif">
         <h2 class="info">
-            Загляните-ка лучше на <a href="/">главную</a>
+            <!-- Загляните-ка лучше на <a href="/">главную</a> -->
+            Загляните-ка лучше на <a href="{{ url_for('main') }}">главную</a>
         </h2>
     </div>
 </body>

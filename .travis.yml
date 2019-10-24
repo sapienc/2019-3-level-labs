@@ -10,3 +10,5 @@ install:
 script:
   - cd lab_1
   - python -m unittest test_structure
+  - cd ../lab_2/
+  - python -m unittest test_structure

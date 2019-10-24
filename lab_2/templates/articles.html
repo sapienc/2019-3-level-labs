@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>Статьи | Lifehacker</title>
-    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/{{page.label}}.css">
 </head>
 <body>
     <div class="content">
-        <p class="logo">Лайфхакер</p>
+        <p class="logo"><a href="/">{{page.title}}</a></p>
         <p class="info">
             Взято с: <a href="{{articles.url}}" target="_blank">{{articles.url}}</a>
         </p>
@@ -17,6 +18,7 @@
             </p>
             <form action="/update" method="POST" class="update_form">
                 <input type="submit" class="button" value="" title="Обновить">
+                <input type="hidden" name="src" value="{{page.label}}"/>
             </form>
         </div>
         <ol>
